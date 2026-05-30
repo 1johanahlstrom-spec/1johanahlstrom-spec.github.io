@@ -13,7 +13,7 @@
 // Chrome (TWA) ska avfyra den externa intenten → native BridgeResultActivity i förgrund.
 const BIG=document.getElementById('big'),LOG=document.getElementById('log'),V=document.getElementById('v'),C=document.getElementById('c');
 const cx=C.getContext('2d',{willReadFrequently:true});
-let rows=[], t0=0, res='?', wl=null, WINDOW_MS=20000;
+let rows=[], t0=0, res='?', wl=null, WINDOW_MS=8000;
 function log(m){ LOG.textContent += m+'\n'; }
 
 async function start(){
